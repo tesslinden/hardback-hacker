@@ -3,7 +3,7 @@ from typing import Dict, List
 
 import fire
 
-path_to_words = "/Users/tesslinden/Dropbox/Code/hardback/words.txt" 
+path_to_words = "/Users/tesslinden/Dropbox/Code/hardback-hacker/words.txt" 
 
 def get_words(path_to_words: str) -> List[str]:
     with open(path_to_words) as f:
