@@ -13,7 +13,7 @@ length of 11 letters and a maximum length of 12 letters.
 
 Optional arguments:
 
-`--output: str = None` 
+`--output: Optional[str] = None` 
     Path to output file. if output is None, no output file is written.
 
 `--printwords: bool = True` 
